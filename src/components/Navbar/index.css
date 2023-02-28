@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.nav-bar {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid #334155;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+@media (max-width: 767px) {
+  .nav-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10vh;
+  }
+}
+
+.logo {
+  height: 60px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    height: 40px;
+  }
+}
+
+.container-home-and-about {
+  display: flex;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-right: 15px;
+  align-self: center;
+  font-weight: bold;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.dark-them-color {
+  color: #1e293b;
+}
+
+.light-them-color {
+  color: #ffffff;
+}
+
+.dark-them-bgcolor {
+  background-color: #000000;
+}
+
+.light-them-bgcolor {
+  background-color: #ffffff;
+}
+
+.bg-color-navabar {
+  background-color: #333333;
+}
